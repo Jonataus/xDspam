@@ -1,0 +1,7 @@
+python-decouple
+pyrogram
+cryptg
+gitpython
+asyncio
+python-dotenv
+tgcrypto

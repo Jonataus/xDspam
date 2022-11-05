@@ -1,0 +1,157 @@
+{
+      "name": "xDspam",
+      "description": "A Pyrogram Based Span Bots With Many Cmds Fast And Stable",
+      "logo": "https://te.legra.ph/file/06fe1bc84bd5b394dc373.jpg",
+      "keywords": [
+        "telegram",
+        "PYROGRAM",
+        "telegram-bot",
+        "XdSpam",
+        "SpamBots"
+      ],   
+  "repository": "https://github.com/FabinoXD/xDSpam",
+  "website": "https://github.com/FabinoXD",
+  "success_url": "https://t.me/EnoughBio",
+  "env": {
+             "API_ID": {
+        "description": "Fill Api ID Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "ALIVE_PIC": {
+        "description": "your alive pic or video",
+        "value": "",
+        "required": false
+      },
+      "API_HASH": {
+        "description": "Fill Api hash Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "CLIENT": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": true
+      },
+      "CLIENT2": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT3": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT4": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT5": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT6": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT7": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT8": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT9": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT10": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT11": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT12": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT13": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT14": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT15": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT16": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT17": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT18": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT19": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },
+      "CLIENT20": {
+        "description": "Pyrogram String Session Or Bot Token",
+        "value": "",
+        "required": false
+      },      
+      "SUDO_USERS": {
+            "description": "Sudo users id space by space or leave blank",
+            "value": "",
+            "required": false
+        },
+      "OWNER_ID": {
+            "description": "Sudo users id space by space",
+            "value": "",
+            "required": true
+        },
+      "LOGS_CHANNEL": {
+            "description": "Logs Group ID (Make A Private Group And Add Your All Spam id Their)",
+            "value": "",
+            "required": false
+        },
+      "HNDLR": {
+            "description": "Your Spam Userbot's Command handler",
+            "value": ".",
+            "required": false  
+        }
+    },
+    "buildpacks": [
+        {
+          "url": "heroku/python"
+        }
+    ]
+}
