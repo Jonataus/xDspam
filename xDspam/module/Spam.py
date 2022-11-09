@@ -24,7 +24,7 @@ async def delayspam(xspam: Client, e: Message):
             return await e.reply_text("**Sorry !! i Can't Spam Here.**")
        msg = str(HNYop[1])
        if re.search(Owners.lower(), msg.lower()):
-            return await e.reply_text(usage)("**Sorry !!** I can't Spam On @EnoughBio's owner")
+            return await e.reply_text("**Sorry !!** I can't Spam On My owner")
        sleeptime = float(HNY[0])
        if e.reply_to_message:
           reply_to_id = e.reply_to_message.message_id
