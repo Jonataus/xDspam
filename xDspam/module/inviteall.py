@@ -24,6 +24,6 @@ async def scrape_members(xDspam: Client, message: Message):
            await asyncio.sleep(2)
         except Exception as a:
            print(str(a))
-      return await xDspam.send_message(message.chat.id, f"**Users Added!** \nFrom chat: @{cht.username} \nTotal users added: `{added}` \n\n © @RiZoeLX")
+      return await xDspam.send_message(message.chat.id, f"**Users Added!** \nFrom chat: @{cht.username} \nTotal users added: `{added}` \n\n © @EnoughBio")
    else:
       await message.reply_text(f"*#Wrong usage** \n syntax: {HNDLR}scrape @chatlink")
