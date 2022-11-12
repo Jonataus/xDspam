@@ -1,6 +1,4 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
 
 <h2 align="center">
     ──「 xᴅ ꜱᴘᴀᴍ 」──
@@ -17,7 +15,6 @@
 
 </h3>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <p align="center">
@@ -38,7 +35,6 @@
 ━━━━━━━━━━━━━━━━━━━━
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
 <h3 align="center">
@@ -54,7 +50,6 @@
 
 ━━━━━━━━━━━━━━━━━━━━
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
 <h3 align="center">
@@ -63,5 +58,7 @@
  : ➻
 
 ➥ [ꜰᴀʙɪɴᴏ xᴅ] × <a href="https://hnyxd.ml" alt="ꜰᴀʙɪɴᴏ xᴅ"> <img src="https://img.shields.io/badge/ꜰᴀʙɪɴᴏ xᴅ-90302f?logo=telegram" /></a>  
+
+➥ [ᴀɴᴏɴʏᴍᴏᴜꜱ] × <a href="https://t.me/anonymous_was_bot" alt="ᴀɴᴏɴʏᴍᴏᴜꜱ"> <img src="https://img.shields.io/badge/ᴀɴᴏɴʏᴍᴏᴜꜱ-90302f?logo=telegram" /></a>
 
 ➥ [ʀɪᴢᴏᴇʟ x] × <a href="https://t.me/TheRiZoeL" alt="TheRiZoeL"> <img src="https://img.shields.io/badge/TheRiZoeL-90302f?logo=telegram" /></a> 

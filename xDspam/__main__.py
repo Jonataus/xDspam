@@ -14,104 +14,104 @@ if CLIENT:
     HNY.start()
     if not ":" in CLIENT:
        HNY.join_chat("EnoughBio")
-       HNY.join_chat("DevilsHeavenMF")
+       HNY.join_chat("xDspamBots")
 if CLIENT2:
     HNY2.start()
     if not ":" in CLIENT2:
       HNY2.join_chat("EnoughBio")
-      HNY2.join_chat("DevilsHeavenMF")
+      HNY2.join_chat("xDspamBots")
 if CLIENT3:
     HNY3.start()
     if not ":" in CLIENT3:
        HNY3.join_chat("EnoughBio")
-       HNY3.join_chat("DevilsHeavenMF")
+       HNY3.join_chat("xDspamBots")
 if CLIENT4:
     HNY4.start()
     if not ":" in CLIENT4:
        HNY4.join_chat("EnoughBio")
-       HNY4.join_chat("DevilsHeavenMF")
+       HNY4.join_chat("xDspamBots")
 if CLIENT5:
     HNY5.start()
     if not ":" in CLIENT5:
        HNY5.join_chat("EnoughBio")
-       HNY5.join_chat("DevilsHeavenMF")
+       HNY5.join_chat("xDspamBots")
 if CLIENT6:
     HNY6.start()
     if not ":" in CLIENT6:
        HNY6.join_chat("EnoughBio")
-       HNY6.join_chat("DevilsHeavenMF")
+       HNY6.join_chat("xDspamBots")
 if CLIENT7:
     HNY7.start()
     if not ":" in CLIENT7:
        HNY7.join_chat("EnoughBio")
-       HNY7.join_chat("DevilsHeavenMF")
+       HNY7.join_chat("xDspamBots")
 if CLIENT8:
     HNY8.start()
     if not ":" in CLIENT8:
        HNY8.join_chat("EnoughBio")
-       HNY8.join_chat("DevilsHeavenMF")
+       HNY8.join_chat("xDspamBots")
 if CLIENT9:
     HNY9.start()
     if not ":" in CLIENT9:
        HNY9.join_chat("EnoughBio")
-       HNY9.join_chat("DevilsHeavenMF")
+       HNY9.join_chat("xDspamBots")
 if CLIENT10:
     HNY10.start()
     if not ":" in CLIENT10:
        HNY10.join_chat("EnoughBio")
-       HNY10.join_chat("DevilsHeavenMF")
+       HNY10.join_chat("xDspamBots")
 if CLIENT11:
     HNY11.start()
     if not ":" in CLIENT11:
        HNY11.join_chat("EnoughBio")
-       HNY11.join_chat("DevilsHeavenMF")
+       HNY11.join_chat("xDspamBots")
 if CLIENT12:
     HNY12.start()
     if not ":" in CLIENT12:
        HNY12.join_chat("EnoughBio")
-       HNY12.join_chat("DevilsHeavenMF")
+       HNY12.join_chat("xDspamBots")
 if CLIENT13:
     HNY13.start()
     if not ":" in CLIENT13:
        HNY13.join_chat("EnoughBio")
-       HNY13.join_chat("DevilsHeavenMF")
+       HNY13.join_chat("xDspamBots")
 if CLIENT14:
     HNY14.start()
     if not ":" in CLIENT14:
        HNY14.join_chat("EnoughBio")
-       HNY14.join_chat("DevilsHeavenMF")
+       HNY14.join_chat("xDspamBots")
 if CLIENT15:
     HNY15.start()
     if not ":" in CLIENT15:
        HNY15.join_chat("EnoughBio")
-       HNY15.join_chat("DevilsHeavenMF")
+       HNY15.join_chat("xDspamBots")
 if CLIENT16:
     HNY16.start()
     if not ":" in CLIENT16:
        HNY16.join_chat("EnoughBio")
-       HNY16.join_chat("DevilsHeavenMF")
+       HNY16.join_chat("xDspamBots")
 if CLIENT17:
     HNY17.start()
     if not ":" in CLIENT17:
        HNY17.join_chat("EnoughBio")
-       HNY17.join_chat("DevilsHeavenMF")
+       HNY17.join_chat("xDspamBots")
 if CLIENT18:
     HNY18.start()
     if not ":" in CLIENT18:
        HNY18.join_chat("EnoughBio")
-       HNY18.join_chat("DevilsHeavenMF")
+       HNY18.join_chat("xDspamBots")
 if CLIENT19:
     HNY19.start()
     if not ":" in CLIENT19:
        HNY19.join_chat("EnoughBio")
-       HNY19.join_chat("DevilsHeavenMF")
+       HNY19.join_chat("xDspamBots")
 if CLIENT20:
     HNY20.start()
     if not ":" in CLIENT20:
        HNY20.join_chat("EnoughBio")
-       HNY20.join_chat("DevilsHeavenMF")
+       HNY20.join_chat("xDspamBots")
 
 print("Your Spam Bots Successfully Deployed ✅")
-print("Visit -! @EnoughBio")
+print("Visit -! @xDspamBots")
 
 idle()

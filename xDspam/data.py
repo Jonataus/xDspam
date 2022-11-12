@@ -6,6 +6,22 @@ GROUP = [-1001686672798]
 
 Owners = "@FabinoXD"
 
+EYE = [
+    "👁👁\n\n  💋  =====> Abey Ja Na Randi",
+    "👁👁\n\n  👄  =====> Abey Ja Na Betichod",
+    "👁👁\n\n  👅  =====> Abey Ja Na Behenchod",
+    "👁👁\n\n  💋  =====> Abey Ja Na Na Randwe",
+    "👁👁\n\n  👄  =====> Abey Ja Na Randi",
+    "👁👁\n\n  👅  =====> Abey Ja Na Bhosdike",
+    "👁👁\n\n  💋  =====> Abey Ja Na Chutiye",
+    "👁👁\n\n  👄  =====> Hi All, How Are You...",
+    "👁👁\n\n  👅  =====> Aapki Mummy Kaisi hai??",
+    "👁👁\n\n  💋  =====> Aapki behen kaisi hai??",
+    "👁👁\n\n  💋  =====> Tumaari maa ki chut me mera Lund",
+    "Your Mom was Raped By @xDspamBots",
+    "👁👁\n\n  👄  =====> Chlo abb Gaand mrwao, bapis tag mt krna apne baap ko abb",
+]
+
 REPLYRAID = [
     "𝙈𝘼𝘿𝘼𝙍𝘾𝙃𝙊𝘿",
     "𝘽𝙃𝙊𝙎𝘿𝙄𝙆𝙀",
@@ -239,6 +255,3 @@ PORM = [
         "https://telegra.ph/file/a8bf6c6df8a48e4a306ca.jpg",
         "https://telegra.ph/file/af9e3f98da0bd937adf6e.jpg",
 ]
-
-
-
