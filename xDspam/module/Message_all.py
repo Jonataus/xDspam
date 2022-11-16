@@ -1,4 +1,7 @@
-
+# ""ᴅᴇᴀʀ ᴘʀᴏ ᴘᴇᴏᴘʟᴇ,  ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ & ᴄʜᴀɴɢᴇ ᴛʜɪꜱ ʟɪɴᴇ
+# ᴛɢ :- @FabinoXD
+# ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :- @xDspamBots
+# ɢɪᴛʜᴜʙ :- @FabinoXD ""
 
 import os
 import asyncio

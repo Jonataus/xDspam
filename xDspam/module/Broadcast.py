@@ -1,3 +1,8 @@
+# ""ᴅᴇᴀʀ ᴘʀᴏ ᴘᴇᴏᴘʟᴇ,  ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ & ᴄʜᴀɴɢᴇ ᴛʜɪꜱ ʟɪɴᴇ
+# ᴛɢ :- @FabinoXD
+# ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :- @xDspamBots
+# ɢɪᴛʜᴜʙ :- @FabinoXD ""
+
 from xDspam import OWNER_ID, HNDLR, DEVS, LOGS_CHANNEL
 from pyrogram import Client , filters
 import asyncio

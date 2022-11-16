@@ -1,3 +1,8 @@
+# ""ᴅᴇᴀʀ ᴘʀᴏ ᴘᴇᴏᴘʟᴇ,  ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ & ᴄʜᴀɴɢᴇ ᴛʜɪꜱ ʟɪɴᴇ
+# ᴛɢ :- @FabinoXD
+# ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :- @xDspamBots
+# ɢɪᴛʜᴜʙ :- @FabinoXD ""
+
 import asyncio
 from pyrogram import idle
 from . import (HNY, HNY2, HNY3, HNY4, HNY5, 

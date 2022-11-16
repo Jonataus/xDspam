@@ -1,3 +1,8 @@
+# ""ᴅᴇᴀʀ ᴘʀᴏ ᴘᴇᴏᴘʟᴇ,  ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ & ᴄʜᴀɴɢᴇ ᴛʜɪꜱ ʟɪɴᴇ
+# ᴛɢ :- @FabinoXD
+# ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :- @xDspamBots
+# ɢɪᴛʜᴜʙ :- @FabinoXD ""
+
 import os
 import sys
 import asyncio
@@ -6,7 +11,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 
-Pic = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ec832fc9107fd21edfee3.jpg"
+Pic = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/a50a32854921ea49b665f.jpg"
 Hn = "/"
 btn = InlineKeyboardMarkup(
                 [[

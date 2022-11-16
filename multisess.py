@@ -1,3 +1,8 @@
+# ""ᴅᴇᴀʀ ᴘʀᴏ ᴘᴇᴏᴘʟᴇ,  ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ & ᴄʜᴀɴɢᴇ ᴛʜɪꜱ ʟɪɴᴇ
+# ᴛɢ :- @FabinoXD
+# ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :- @xDspamBots
+# ɢɪᴛʜᴜʙ :- @FabinoXD ""
+
 from pyrogram import Client
 import tgcrypto
 

@@ -1,9 +1,14 @@
+# ""ᴅᴇᴀʀ ᴘʀᴏ ᴘᴇᴏᴘʟᴇ,  ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ & ᴄʜᴀɴɢᴇ ᴛʜɪꜱ ʟɪɴᴇ
+# ᴛɢ :- @FabinoXD
+# ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :- @xDspamBots
+# ɢɪᴛʜᴜʙ :- @FabinoXD ""
+
 import os
 import sys
 import asyncio
 import re
 from random import choice
-from xDspam import (HNDLR, SUDO_USERS, OWNER_ID, LOGS_CHANNEL)
+from xDspam import HNDLR, SUDO_USERS, OWNER_ID, LOGS_CHANNEL
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from xDspam.data import *
@@ -185,11 +190,31 @@ async def draid(xspam: Client, e: Message):
              pass
 
 
+REACT_ON = []
+
+@Client.on_message(filters.user(SUDO_USERS) & filters.command(["replyreact"], prefixes=HNDLR))
+async def react_reply(xspam: Client, message: Message):
+    global REACT_ON
+    if not message.reply_to_message:
+        return
+    else:
+        user = message.reply_to_message.from_user.id
+        REACT_ON.append(user)
+        await message.reply_text(f"Reply Reaction activated on {message.reply_to_message.from_user.mention}.")
+
+
 @Client.on_message( ~filters.me & filters.incoming)
-async def watcher(_, msg: Message):
+async def watcher(xspam: Client, msg: Message):
     global RUSERs
+    global REACT_ON
     id = msg.from_user.id
     if int(id) in RUSERs:
-       reply = choice(REPLYRAID)
-       await msg.reply_text(reply)
+        reply = choice(REPLYRAID)
+        await msg.reply_text(reply)
+    elif int(id) in REACT_ON:
+        await xspam.send_reaction(
+            chat_id=msg.chat.id,
+            message_id=msg.id,
+            emoji="❤️",
+        )
        
