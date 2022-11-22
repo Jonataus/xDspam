@@ -3,40 +3,36 @@
 # ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :- @xDspamBots
 # ɢɪᴛʜᴜʙ :- @FabinoXD ""
 
-import os
-import sys
-from random import choice
-from xDspam import (OWNER_ID, HNDLR, SUDO_USERS, hl)
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from xDspam.data import *
 
+from xDspam import HNDLR, SUDO_USERS, hl
 
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["help"], prefixes=HNDLR))
 @Client.on_message(filters.me & filters.command(["help"], prefixes=HNDLR))
 async def help(_, e: Message):
-        HNY = e.text.split(" ")
-        if len(HNY) > 1:
-            helping = HNY[1]
-            if helping.lower() == "spam":
-                await e.reply(spam_help)
-            elif helping.lower() == "dm":
-                await e.reply(dm_help)
-            elif helping.lower() == "userbot":
-                await e.reply(userbot_help)
-            elif helping.lower() == "join":
-                await e.reply(join_help)
-            elif helping.lower() == "leave":
-                await e.reply(leave_help)
-            elif helping.lower() == "owner":
-                await e.reply(owner_help)
-            elif helping.lower() == "extra":
-                await e.reply(extra_help)
-            else:
-                await e.reply(help_menu)
+    HNY = e.text.split(" ")
+    if len(HNY) > 1:
+        helping = HNY[1]
+        if helping.lower() == "spam":
+            await e.reply(spam_help)
+        elif helping.lower() == "dm":
+            await e.reply(dm_help)
+        elif helping.lower() == "userbot":
+            await e.reply(userbot_help)
+        elif helping.lower() == "join":
+            await e.reply(join_help)
+        elif helping.lower() == "leave":
+            await e.reply(leave_help)
+        elif helping.lower() == "owner":
+            await e.reply(owner_help)
+        elif helping.lower() == "extra":
+            await e.reply(extra_help)
         else:
             await e.reply(help_menu)
+    else:
+        await e.reply(help_menu)
 
 
 spam_help = f"""
