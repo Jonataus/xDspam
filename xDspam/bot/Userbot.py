@@ -3,19 +3,30 @@
 # ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :- @xDspamBots
 # ɢɪᴛʜᴜʙ :- @FabinoXD ""
 
+import datetime
 import os
 import sys
-import asyncio
-import datetime
 import time
-from xDspam import (HNDLR, SUDO_USERS, ALIVE_PIC, ALIVE_MSG, PING_MSG, __version__, start_time)
-from pyrogram import Client, filters
+
+from pyrogram import Client
+from pyrogram import __version__ as pyro_vr
+from pyrogram import filters
 from pyrogram.types import Message
-from pyrogram import __version__ as pyro_vr             
-                
+
+from xDspam import (
+    ALIVE_MSG,
+    ALIVE_PIC,
+    HNDLR,
+    PING_MSG,
+    SUDO_USERS,
+    __version__,
+    start_time,
+)
 
 pongg = PING_MSG if PING_MSG else "ᴢɪɴᴅᴀ ʜᴜ ʙᴀʙʏ....."
-LUL_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph//file/ade7408323919332f2e09.jpg"
+LUL_PIC = (
+    ALIVE_PIC if ALIVE_PIC else "https://telegra.ph//file/ade7408323919332f2e09.jpg"
+)
 Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝗭𝗶𝗡𝗗𝗮 𝗛𝘂 𝗕𝗮𝗯𝘆....."
 
 
@@ -52,32 +63,37 @@ async def get_time(seconds: int) -> str:
 
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["ping"], prefixes=HNDLR))
-async def ping(_, e: Message):       
-      start = datetime.datetime.now()
-      uptime = await get_time((time.time() - start_time))
-      Fuk = await e.reply("**Pong !!**")
-      end = datetime.datetime.now()
-      ms = (end-start).microseconds / 1000
-      await Fuk.edit_text(f"⌾ {pongg} ⌾ \n\n ༝ ᴘɪɴɢ: `{ms}` ᴍs \n ༝ ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ༝ ᴠᴇʀsɪᴏɴ: `{__version__}`")
+async def ping(_, e: Message):
+    start = datetime.datetime.now()
+    uptime = await get_time((time.time() - start_time))
+    Fuk = await e.reply("**Pong !!**")
+    end = datetime.datetime.now()
+    ms = (end - start).microseconds / 1000
+    await Fuk.edit_text(
+        f"⌾ {pongg} ⌾ \n\n ༝ ᴘɪɴɢ: `{ms}` ᴍs \n ༝ ᴜᴘᴛɪᴍᴇ: `{uptime}` \n ༝ ᴠᴇʀsɪᴏɴ: `{__version__}`"
+    )
 
 
-
-@Client.on_message(filters.user(SUDO_USERS) & filters.command(["alive"], prefixes=HNDLR))
+@Client.on_message(
+    filters.user(SUDO_USERS) & filters.command(["alive"], prefixes=HNDLR)
+)
 async def alive(xspam: Client, e: Message):
-       if ".jpg" in LUL_PIC or ".png" in LUL_PIC:
-              await xspam.send_photo(e.chat.id, LUL_PIC, caption=HNY)
-       if ".mp4" in LUL_PIC or ".MP4," in LUL_PIC:
-              await xspam.send_video(e.chat.id, LUL_PIC, caption=HNY)
+    if ".jpg" in LUL_PIC or ".png" in LUL_PIC:
+        await xspam.send_photo(e.chat.id, LUL_PIC, caption=HNY)
+    if ".mp4" in LUL_PIC or ".MP4," in LUL_PIC:
+        await xspam.send_video(e.chat.id, LUL_PIC, caption=HNY)
 
 
-@Client.on_message(filters.user(SUDO_USERS) & filters.command(["restart", "reboot"], prefixes=HNDLR))
+@Client.on_message(
+    filters.user(SUDO_USERS) & filters.command(["restart", "reboot"], prefixes=HNDLR)
+)
 async def reboot(xspam: Client, e: Message):
-        reboot_text = "**Re-starting** \n\n __Wait For A While To Use it Again__ "
-        await e.reply_text(reboot_text)
-        try:
-            xspam.disconnect()
-        except Exception as e:
-            pass
-        args = [sys.executable, "-m", "xDspam"]
-        os.execl(sys.executable, *args)
-        quit()
+    reboot_text = "**Re-starting** \n\n __Wait For A While To Use it Again__ "
+    await e.reply_text(reboot_text)
+    try:
+        xspam.disconnect()
+    except Exception:
+        pass
+    args = [sys.executable, "-m", "xDspam"]
+    os.execl(sys.executable, *args)
+    quit()
