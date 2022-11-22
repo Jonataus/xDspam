@@ -3,20 +3,26 @@
 # ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :- @xDspamBots
 # ɢɪᴛʜᴜʙ :- @FabinoXD ""
 
-from xDspam import OWNER_ID, HNDLR, DEVS, LOGS_CHANNEL
-from pyrogram import Client , filters
 import asyncio
+
+from pyrogram import Client, filters
 from pyrogram.types import Message
 
+from xDspam import DEVS, HNDLR, LOGS_CHANNEL, OWNER_ID
 
-@Client.on_message(filters.user(DEVS) & filters.command(["broadcast", "gcast"], prefixes=HNDLR))
-@Client.on_message(filters.user(OWNER_ID) & filters.command(["broadcast", "gcast"], prefixes=HNDLR))
+
+@Client.on_message(
+    filters.user(DEVS) & filters.command(["broadcast", "gcast"], prefixes=HNDLR)
+)
+@Client.on_message(
+    filters.user(OWNER_ID) & filters.command(["broadcast", "gcast"], prefixes=HNDLR)
+)
 @Client.on_message(filters.me & filters.command(["broadcast", "gcast"], prefixes=HNDLR))
 async def broadcast(xspam: Client, e: Message):
     ok = e.from_user.id
-    txt = ' '.join(e.command[1:])
+    txt = " ".join(e.command[1:])
     if txt:
-      msg = str(txt)
+        msg = str(txt)
     elif e.reply_to_message:
         msg = e.reply_to_message.text.markdown
     else:
@@ -28,16 +34,20 @@ async def broadcast(xspam: Client, e: Message):
     dn = 0
 
     async for cht in xspam.get_dialogs():
-          try:
-                await xspam.send_message(cht.chat.id, msg, disable_web_page_preview=True)
-                dn += 1
-                await asyncio.sleep(0.1)
-          except Exception as e:
-              err += 1 
-    return await xspam.send_message(ok, f"**• Broadcast Done** ✅ \n\n Chats: {dn} \n Failed In {err} chats")
+        try:
+            await xspam.send_message(cht.chat.id, msg, disable_web_page_preview=True)
+            dn += 1
+            await asyncio.sleep(0.1)
+        except Exception:
+            err += 1
+    return await xspam.send_message(
+        ok, f"**• Broadcast Done** ✅ \n\n Chats: {dn} \n Failed In {err} chats"
+    )
     if LOGS_CHANNEL:
-       try:
-           await xspam.send_message(LOGS_CHANNEL, f"Broadcasting Done By user {e.from_user.id} \n\n Chat: {dn} \n Failed in {err} chats")
-       except Exception as a:
-             print(a)
-             pass
+        try:
+            await xspam.send_message(
+                LOGS_CHANNEL,
+                f"Broadcasting Done By user {e.from_user.id} \n\n Chat: {dn} \n Failed in {err} chats",
+            )
+        except Exception as a:
+            print(a)
