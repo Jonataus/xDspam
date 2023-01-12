@@ -37,7 +37,7 @@ HNY += f"➠ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ** : `{pyro_vr}`\n"
 HNY += f"➠ **xᴅꜱᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{__version__}`\n"
 HNY += f"➠ **ᴄʜᴀɴɴᴇʟ** : [Join.](https://t.me/EnoughBio)\n"
 HNY += f"━───────╮•╭───────━\n\n"
-HNY += f"➠ **Source Code:** [•Repo•](https://github.com/EnoughBio/xDspam)"
+HNY += f"➠ **Source Code:** [•Repo•](https://github.com/FabinoXD/xDspam)"
 
 
 async def get_time(seconds: int) -> str:
